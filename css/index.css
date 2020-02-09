@@ -1,0 +1,110 @@
+body {
+  background-color: white;
+  /*background-image: url("../landscape.jpg");*/
+  background-size: 100%;
+  position: relative;
+}
+
+.js-nameForm,
+.js-name {
+  display: none;
+}
+
+.js-name {
+  font-size: 40px;
+  margin-top: 15px;
+}
+
+.showing {
+  display: block;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.js-location {
+  padding: 8px 10px;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rebeccapurple;
+}
+
+.js-clock {
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  margin-top: 14vh;
+  margin-bottom: 20px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main .js-nameForm {
+  width: 100%;
+  text-align: center;
+}
+
+.main .js-nameInput {
+  width: 27%;
+  height: 27px;
+  padding: 5px 15px;
+  border-radius: 13px;
+  font-size: 15px;
+  outline: none;
+  border: 1px solid gray;
+}
+
+.main .js-toDoForm {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.main .js-toDoInput {
+  width: 50%;
+  height: 27px;
+  padding: 5px 15px;
+  border-radius: 13px;
+  font-size: 15px;
+  outline: none;
+  border: 1px solid gray;
+}
+
+ul {
+  list-style-type: square;
+  font-size: 22px;
+}
+
+ul span {
+  margin-right: 10px;
+  font-weight: 800;
+}
+
+ul button {
+  padding: 5px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+ul button:active {
+  font-size: 10px;
+}
+
+.js-changeName {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 14px;
+  border-radius: 15px;
+  border: none;
+  padding: 5px 10px;
+}
